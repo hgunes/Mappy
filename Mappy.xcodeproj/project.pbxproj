@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4D2DEB2A7E733C0087AC58 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4D2DEA2A7E733C0087AC58 /* LocationViewModel.swift */; };
 		BE84BF522A7E6A9500890806 /* MappyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF512A7E6A9500890806 /* MappyApp.swift */; };
 		BE84BF542A7E6A9500890806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF532A7E6A9500890806 /* ContentView.swift */; };
 		BE84BF562A7E6A9E00890806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE84BF552A7E6A9E00890806 /* Assets.xcassets */; };
 		BE84BF592A7E6A9E00890806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE84BF582A7E6A9E00890806 /* Preview Assets.xcassets */; };
 		BE84BF632A7E6C0100890806 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF622A7E6C0100890806 /* Location.swift */; };
 		BE84BF662A7E6CD200890806 /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF652A7E6CD200890806 /* LocationServices.swift */; };
+		BE84BF6A2A7E6E5D00890806 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF692A7E6E5D00890806 /* LocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE4D2DEA2A7E733C0087AC58 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		BE84BF4E2A7E6A9500890806 /* Mappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE84BF512A7E6A9500890806 /* MappyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappyApp.swift; sourceTree = "<group>"; };
 		BE84BF532A7E6A9500890806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +26,7 @@
 		BE84BF582A7E6A9E00890806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE84BF622A7E6C0100890806 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		BE84BF652A7E6CD200890806 /* LocationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
+		BE84BF692A7E6E5D00890806 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +59,12 @@
 		BE84BF502A7E6A9500890806 /* Mappy */ = {
 			isa = PBXGroup;
 			children = (
+				BE84BF512A7E6A9500890806 /* MappyApp.swift */,
+				BE84BF532A7E6A9500890806 /* ContentView.swift */,
 				BE84BF642A7E6CB000890806 /* Services */,
 				BE84BF612A7E6BAB00890806 /* Views */,
 				BE84BF602A7E6BA100890806 /* ViewModel */,
 				BE84BF5F2A7E6B9C00890806 /* Model */,
-				BE84BF512A7E6A9500890806 /* MappyApp.swift */,
-				BE84BF532A7E6A9500890806 /* ContentView.swift */,
 				BE84BF552A7E6A9E00890806 /* Assets.xcassets */,
 				BE84BF572A7E6A9E00890806 /* Preview Content */,
 			);
@@ -86,6 +90,7 @@
 		BE84BF602A7E6BA100890806 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BE4D2DEA2A7E733C0087AC58 /* LocationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		BE84BF612A7E6BAB00890806 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE84BF692A7E6E5D00890806 /* LocationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE84BF542A7E6A9500890806 /* ContentView.swift in Sources */,
+				BE4D2DEB2A7E733C0087AC58 /* LocationViewModel.swift in Sources */,
 				BE84BF632A7E6C0100890806 /* Location.swift in Sources */,
+				BE84BF6A2A7E6E5D00890806 /* LocationView.swift in Sources */,
 				BE84BF662A7E6CD200890806 /* LocationServices.swift in Sources */,
 				BE84BF522A7E6A9500890806 /* MappyApp.swift in Sources */,
 			);
