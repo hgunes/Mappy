@@ -6,15 +6,32 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct LocationView: View {
     
     @EnvironmentObject private var vm: LocationViewModel
     
     var body: some View {
-        List {
-            ForEach(vm.locations) {
-                Text($0.name)
+        ZStack {
+            Map(coordinateRegion: $vm.mapRegion)
+                .ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                VStack {
+                    Text(vm.mapLocation.name + ", " + vm.mapLocation.cityName)
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .foregroundColor(.primary)
+                        .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                }
+                .background(.thickMaterial)
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.3), radius: 20, y: 15)
+                .padding()
+                
+                Spacer()
             }
         }
     }
