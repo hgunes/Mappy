@@ -15,6 +15,7 @@
 		BE84BF632A7E6C0100890806 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF622A7E6C0100890806 /* Location.swift */; };
 		BE84BF662A7E6CD200890806 /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF652A7E6CD200890806 /* LocationServices.swift */; };
 		BE84BF6A2A7E6E5D00890806 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF692A7E6E5D00890806 /* LocationView.swift */; };
+		BE980A212A7E8E32006DF1C9 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE980A202A7E8E32006DF1C9 /* LocationListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		BE84BF622A7E6C0100890806 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		BE84BF652A7E6CD200890806 /* LocationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
 		BE84BF692A7E6E5D00890806 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		BE980A202A7E8E32006DF1C9 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				BE84BF692A7E6E5D00890806 /* LocationView.swift */,
+				BE980A202A7E8E32006DF1C9 /* LocationListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				BE4D2DEB2A7E733C0087AC58 /* LocationViewModel.swift in Sources */,
 				BE84BF632A7E6C0100890806 /* Location.swift in Sources */,
 				BE84BF6A2A7E6E5D00890806 /* LocationView.swift in Sources */,
+				BE980A212A7E8E32006DF1C9 /* LocationListView.swift in Sources */,
 				BE84BF662A7E6CD200890806 /* LocationServices.swift in Sources */,
 				BE84BF522A7E6A9500890806 /* MappyApp.swift in Sources */,
 			);
