@@ -18,6 +18,7 @@
 		BE980A212A7E8E32006DF1C9 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE980A202A7E8E32006DF1C9 /* LocationListView.swift */; };
 		BE980A232A7EB0D4006DF1C9 /* LocationDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE980A222A7EB0D4006DF1C9 /* LocationDisplayView.swift */; };
 		BEA497FC2A7F8FE10043D443 /* CustomPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA497FB2A7F8FE10043D443 /* CustomPinView.swift */; };
+		BEA497FE2A7F95860043D443 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA497FD2A7F95860043D443 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		BE980A202A7E8E32006DF1C9 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		BE980A222A7EB0D4006DF1C9 /* LocationDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDisplayView.swift; sourceTree = "<group>"; };
 		BEA497FB2A7F8FE10043D443 /* CustomPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPinView.swift; sourceTree = "<group>"; };
+		BEA497FD2A7F95860043D443 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				BE980A202A7E8E32006DF1C9 /* LocationListView.swift */,
 				BE980A222A7EB0D4006DF1C9 /* LocationDisplayView.swift */,
 				BEA497FB2A7F8FE10043D443 /* CustomPinView.swift */,
+				BEA497FD2A7F95860043D443 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				BE84BF662A7E6CD200890806 /* LocationServices.swift in Sources */,
 				BEA497FC2A7F8FE10043D443 /* CustomPinView.swift in Sources */,
 				BE980A232A7EB0D4006DF1C9 /* LocationDisplayView.swift in Sources */,
+				BEA497FE2A7F95860043D443 /* LocationDetailView.swift in Sources */,
 				BE84BF522A7E6A9500890806 /* MappyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -42,6 +42,7 @@ class LocationServices {
                 "rome-trevifountain-1",
                 "rome-trevifountain-2",
                 "rome-trevifountain-3",
+                "rome-trevifountain-4"
             ],
             link: "https://en.wikipedia.org/wiki/Trevi_Fountain"),
         Location(

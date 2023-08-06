@@ -24,6 +24,9 @@ struct LocationView: View {
                 stackLayer
             }
         }
+        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
+            LocationDetailView(location: location)
+        }
     }
 }
 
@@ -31,6 +34,7 @@ struct LocationView_Previews: PreviewProvider {
     static var previews: some View {
         LocationView()
             .environmentObject(LocationViewModel())
+            .preferredColorScheme(.dark)
     }
 }
 
