@@ -17,6 +17,7 @@
 		BE84BF6A2A7E6E5D00890806 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84BF692A7E6E5D00890806 /* LocationView.swift */; };
 		BE980A212A7E8E32006DF1C9 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE980A202A7E8E32006DF1C9 /* LocationListView.swift */; };
 		BE980A232A7EB0D4006DF1C9 /* LocationDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE980A222A7EB0D4006DF1C9 /* LocationDisplayView.swift */; };
+		BEA497FC2A7F8FE10043D443 /* CustomPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA497FB2A7F8FE10043D443 /* CustomPinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BE84BF692A7E6E5D00890806 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		BE980A202A7E8E32006DF1C9 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		BE980A222A7EB0D4006DF1C9 /* LocationDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDisplayView.swift; sourceTree = "<group>"; };
+		BEA497FB2A7F8FE10043D443 /* CustomPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				BE84BF692A7E6E5D00890806 /* LocationView.swift */,
 				BE980A202A7E8E32006DF1C9 /* LocationListView.swift */,
 				BE980A222A7EB0D4006DF1C9 /* LocationDisplayView.swift */,
+				BEA497FB2A7F8FE10043D443 /* CustomPinView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				BE84BF6A2A7E6E5D00890806 /* LocationView.swift in Sources */,
 				BE980A212A7E8E32006DF1C9 /* LocationListView.swift in Sources */,
 				BE84BF662A7E6CD200890806 /* LocationServices.swift in Sources */,
+				BEA497FC2A7F8FE10043D443 /* CustomPinView.swift in Sources */,
 				BE980A232A7EB0D4006DF1C9 /* LocationDisplayView.swift in Sources */,
 				BE84BF522A7E6A9500890806 /* MappyApp.swift in Sources */,
 			);
